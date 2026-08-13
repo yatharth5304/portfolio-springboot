@@ -29,7 +29,7 @@ public class PageController {
         response.setContentType("application/pdf");
         response.setHeader(
                 "Content-Disposition",
-                "attachment; filename=Yatharth_Maharwade_Resume.pdf"
+                "inline; filename=Yatharth_Maharwade_Resume.pdf"
         );
 
         ClassPathResource pdf = new ClassPathResource(
